@@ -118,7 +118,7 @@ nav {
     
 }
 
-@media only screen and (max-width: 1440px) and (orientation: landscape) {
+@media only screen and (max-width: 1440px) and (orientation: landscape) , (orientation: portrait) {
    
     .logo {
         display: flex;
