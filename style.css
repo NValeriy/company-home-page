@@ -32,7 +32,7 @@ nav {
     
 }
 
-/* @media only screen and (min-width: 1601px) {
+@media only screen and (min-width: 1601px) {
 
     main {
         padding: 0 10px;
@@ -116,9 +116,13 @@ nav {
     
     }
     
-} */
+}
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1440px) and (orientation: portrait) {
+=======
+@media only screen and (max-width: 1440px) and (orientation: landscape) {
+>>>>>>> parent of 4b878c0 (Update style.css)
    
     .logo {
         display: flex;
