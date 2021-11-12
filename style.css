@@ -31,7 +31,7 @@ nav {
     height: 40px;
     
 }
-
+/* 
 @media only screen and (min-width: 1601px) {
 
     main {
@@ -116,9 +116,9 @@ nav {
     
     }
     
-}
+} */
 
-@media only handheld  {
+@media only handheld and (orientation: portrait)  {
    
     .logo {
         display: flex;
