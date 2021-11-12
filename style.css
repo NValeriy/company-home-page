@@ -118,7 +118,7 @@ nav {
     
 }
 
-@media only handheld and (max-width: 800px) {
+@media only handheld  {
    
     .logo {
         display: flex;
