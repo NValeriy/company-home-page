@@ -32,7 +32,7 @@ nav {
     
 }
 
-@media only screen and (min-width: 1441px) {
+@media only screen and (min-width: 1601px) {
 
     main {
         padding: 0 10px;
@@ -74,7 +74,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 1800px) and (min-width: 1200px) {
+@media only screen and (max-width: 1600px) and (min-width: 1441px) {
 
     main {
         padding: 0 10px;
@@ -118,7 +118,7 @@ nav {
     
 }
 
-@media only handheld {
+@media only screen and (max-width: 1440px) {
    
     .logo {
         display: flex;
