@@ -118,7 +118,7 @@ nav {
     
 } */
 
-@media only handheld and (orientation: portrait)  {
+@media all and (handheld) and (orientation: portrait)  {
    
     .logo {
         display: flex;
