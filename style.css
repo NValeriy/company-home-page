@@ -118,10 +118,7 @@ nav {
 } 
 
 @media only screen and (max-width: 767px) {
-   html {
-       font-size: 30px;
-   }
-
+   
     .logo {
         display: flex;
         align-items: center;
@@ -144,8 +141,7 @@ nav {
     }
 
     header h1 {
-        font-size: 2rem;
-
+        font-size: 3rem;
     }
 
     nav {
@@ -154,10 +150,8 @@ nav {
 
     a {
         color: #eedf0e;
-        margin: 0 0.1rem;
-        font-size: 1.25rem;
-        border: solid 2px rgba(255, 127, 80, 0.712);
-        border-radius: 5px;
+        padding: 0 2rem;
+        font-size: 2rem;
     
     }
     
