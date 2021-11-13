@@ -119,7 +119,7 @@ nav {
 
 @media only screen and (max-width: 767px) {
    html {
-       font-size: 30px;
+       font-size: 20px;
    }
 
     .logo {
@@ -153,8 +153,8 @@ nav {
 
     a {
         color: #eedf0e;
-        padding: 0 2rem;
-        font-size: 2rem;
+        margin: 0 0.1rem;
+        font-size: 1.5rem;
     
     }
     
