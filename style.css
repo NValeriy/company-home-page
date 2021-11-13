@@ -73,7 +73,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 1024px) {
+@media only screen and (max-width: 1024px) and (min-width: 1001px) {
 
     main {
         padding: 0 10px;
@@ -117,7 +117,7 @@ nav {
     
 } 
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1000px) {
    html {
        font-size: 30px;
    }
