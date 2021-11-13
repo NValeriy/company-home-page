@@ -52,7 +52,7 @@ nav {
     }
 
     header h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     .logo {
@@ -65,8 +65,8 @@ nav {
 
     a {
         color: #eedf0e;
-        padding-right: 20px;
-        font-size: 20px;
+        padding-right: 1.25rem;
+        font-size: 1.25rem;
     
     }
     
@@ -101,7 +101,7 @@ nav {
     }
 
     header h1 {
-        font-size: 30px;
+        font-size: 2rem;
     }
 
     nav {
@@ -110,8 +110,8 @@ nav {
 
     a {
         color: #eedf0e;
-        padding: 0 20px;
-        font-size: 20px;
+        padding: 0 1.25rem;
+        font-size: 1.25rem;
     
     }
     
@@ -141,7 +141,7 @@ nav {
     }
 
     header h1 {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     nav {
@@ -150,8 +150,8 @@ nav {
 
     a {
         color: #eedf0e;
-        padding: 0 20px;
-        font-size: 30px;
+        padding: 0 2rem;
+        font-size: 2rem;
     
     }
     
