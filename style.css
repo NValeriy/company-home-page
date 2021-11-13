@@ -8,7 +8,7 @@ body {
     width: 100%;
     flex-direction: column;
     position: relative;
-    top: 0px;
+    top: 0rem;
     margin: 0 auto;
     background-color: #000000e8;
 }
@@ -16,7 +16,7 @@ body {
 main {
     position: relative;
     display: flex;
-    top: 100px;
+    top: 6.25rem;
 }
 
 header {
@@ -40,7 +40,7 @@ nav {
     header {
         position: fixed;
         top: 0;
-        height: 100px;
+        height: 6.25rem;
         display: flex;
         flex-shrink: 1;
         flex-direction: row;
@@ -58,7 +58,7 @@ nav {
     .logo {
         display: flex;
         align-items: center;
-        width: 300px;
+        width: 18.75rem;
         justify-content: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -73,7 +73,7 @@ nav {
 
 }
 
-@media only screen and (max-width: 1024px) and (min-width: 981px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
 
     main {
         padding: 0 10px;
@@ -82,7 +82,7 @@ nav {
     .logo {
         display: flex;
         align-items: center;
-        height: 40px;
+        height: 2.5rem;
         justify-content: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -90,7 +90,7 @@ nav {
     header {
         position: fixed;
         top: 0;
-        height: 100px;
+        height: 6.25rem;
         display: flex;
         flex-shrink: 1;
         flex-direction: column;
@@ -117,12 +117,12 @@ nav {
     
 } 
 
-@media only screen and (max-width: 981px) {
+@media only screen and (max-width: 767px) {
    
     .logo {
         display: flex;
         align-items: center;
-        height: 40px;
+        height: 2.5rem;
         justify-content: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -130,7 +130,7 @@ nav {
     header {
         position: absolute;
         top: 0;
-        height: 100px;
+        height: 6.25rem;
         display: flex;
         flex-shrink: 1;
         flex-direction: column;
