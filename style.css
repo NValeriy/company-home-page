@@ -9,16 +9,15 @@ body {
     width: 100%;
     flex-direction: column;
     position: relative;
-    top: 0rem;
+    top: 6.25rem;
     margin: 0 auto;
-    background-color: #000000e8;
+    background-color: black;
 }
 
 main {
     position: relative;
     display: flex;
     flex-direction: column;
-    top: 6.25rem;
     background-color: black;
 }
 
@@ -47,7 +46,7 @@ nav {
         display: flex;
         flex-shrink: 1;
         flex-direction: row;
-        background-color: #000000e8;
+        background-color: black;
         color: #eedf0e;
         z-index: 2;
         justify-content: space-between;
@@ -125,6 +124,9 @@ nav {
        font-size: 20px;
    }
 
+   body {
+    top: 6.25rem;
+   }
     .logo {
         display: flex;
         align-items: center;
@@ -135,7 +137,7 @@ nav {
 
     header {
         position: absolute;
-        top: 0;
+        top: -6.25rem;
         height: 6.25rem;
         display: flex;
         flex-shrink: 1;
@@ -244,4 +246,16 @@ nav {
 .foto h2 {
     margin: 0 auto;
     padding: 1rem;
+}
+
+/*          foooooooterrrrrrrrrrrrrrrrrrrrrrrr*/
+
+footer {
+    display: flex;
+    position: relative;
+    font-family: Helvetica, sans-serif;
+    color: #eedf0e;
+    font-size: 1rem;
+    padding: 2rem;
+    justify-content: space-around;
 }
