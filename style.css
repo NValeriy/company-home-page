@@ -1,6 +1,6 @@
 html {
-    background-color: white;
-    display: flex;
+    background-color: black;
+    display: block;
     height: 100%;
 }
 
@@ -19,6 +19,7 @@ main {
     display: flex;
     flex-direction: column;
     top: 6.25rem;
+    background-color: black;
 }
 
 header {
@@ -217,11 +218,30 @@ nav {
 .team h1 {
     padding: 1rem;
     font-weight: 700;
-    margin: 0 auto;
+    margin: 2rem auto;
 }
 
 .fotobox {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+
+.foto {
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+.foto img {
+    width: 100%;
+}
+
+.foto h2 {
+    margin: 0 auto;
+    padding: 1rem;
+}
