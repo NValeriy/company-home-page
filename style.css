@@ -17,6 +17,7 @@ body {
 main {
     position: relative;
     display: flex;
+    flex-direction: column;
     top: 6.25rem;
 }
 
@@ -182,7 +183,7 @@ nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 600;
     font-style: italic;
-    color:rgba(12, 0, 0, 0.75);
+    color:rgba(0, 0, 0, 0.8);
 }
 
 .banner1, .banner2, .banner3 {
@@ -200,3 +201,27 @@ nav {
 .banner3 {
     justify-content: end;
 }
+
+/*          teammmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+
+.team {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+.team h1 {
+    padding: 1rem;
+    font-weight: 700;
+    margin: 0 auto;
+}
+
+.fotobox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
